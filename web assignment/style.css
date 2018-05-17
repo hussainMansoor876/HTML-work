@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: lawngreen;
+}
+.man{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#padd{
+    padding-left: 15cm;
+}
+a.man{
+    text-decoration-line: unset;
+}
+#imp{
+    color:rgb(232, 57, 153);
+    padding-left: 1cm;
+}
+img{
+    margin: -20px;
+    width: 100%;
+}
+h2+h1{
+    color: blue;
+}
+div.about{
+    background-color: lightseagreen;
+    padding-left: 5cm;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+div.footer{
+    background-color: #c2c11a;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    margin: -12px;
+}
+th.footer{
+    color:white;
+    padding-right: 5cm;
+}
+th[class]{
+    color: black;
+}

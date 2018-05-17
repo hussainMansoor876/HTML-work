@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <form action="http://www.example.com/profile.php">
+            <p>Do you play any of the following instruments?
+            (You can select more than one option by holding
+            down control on a PC or command key on a Mac
+            while selecting different options.)</p>
+            <select name="instruments" size="3"
+            multiple="multiple">
+            <option value="guitar" selected="selected">
+            Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard"
+            selected="selected">Keyboard</option>
+            <option value="bass">Bass</option>
+            </select>
+            </form>
+            <fieldset>
+                    <legend>Contact details</legend>
+                    <label>Email:<br />
+                    <input type="text" name="email" /></label><br />
+                    <label for="mobile">Mobile:<br />
+                    <input type="text" name="mobile" id="mobile" /></label><br />
+                    <label>Telephone:<br />
+                    <input type="text" name="telephone" /></label>
+                    </fieldset>
+</body>
+</html>

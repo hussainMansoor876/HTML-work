@@ -1,0 +1,51 @@
+h1{
+    /* background-color: blue; */
+    /* color: white; */
+    /* text-shadow: 10px 10px 5px  blue; */
+    /* width: 100%; */
+    text-align: center;
+    /* min-height: 10px;
+    max-height: 100px */
+    /* min-width:100px;
+    max-width: 4000px; */
+    border-width: 10px;
+    border-color: black;
+    border-style: dotted;
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px auto;
+    width: 400px;
+    /* display: inline; */
+    /* display: inline-block; */
+    /* font-weight: bold; */
+    /* -webkit-border-image: url('mansoor.jpg') 11 11 11 11 repeat; */
+    /* background-image: url('mansoor.jpg') */
+    /* text-shadow: 1px 10px 5px skyblue; */
+    box-shadow: 1px 10px yellowgreen;
+    /* border-radius: 50px;
+    border-bottom-right-radius: 100px; */
+    border-radius:100px 50px;
+}
+strong{
+    visibility: hidden;
+}
+p{
+    width: 500px;
+    border-width: 10px;
+    border-color: black;
+    border-style: ridge;
+    padding: 10px;
+    background-color: greenyellow;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration-line: underline; 
+    /* font-weight: bold; */
+}
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+ol{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+}

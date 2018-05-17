@@ -1,0 +1,28 @@
+*{
+    background-color: aquamarine;
+}
+ol{
+    list-style-type: circle;
+}
+ul{
+    list-style-type: upper-roman;
+}
+table{
+    text-transform: capitalize;
+    border: 2px solid #111111;
+}
+td{
+    padding: 5px;
+    font-size: 10pt;
+    letter-spacing: 1.2em;
+    border-bottom: 2px solid #111111;
+    border-style: dotted;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-decoration-line: underline;
+}
+input{
+    font-size: 100px;
+}
